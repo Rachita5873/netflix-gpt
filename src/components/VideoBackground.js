@@ -1,0 +1,19 @@
+import React from 'react'
+import { useSelector } from 'react-redux';
+import useMovieTrailer from '../hooks/useMovieTrailer';
+
+
+const VideoBackground = ({ movieId }) => {
+  console.log(movieId)
+  const trailerVideo = useSelector(store => store.movies?.trailerVideo);
+
+  useMovieTrailer(movieId);
+  
+  return (
+    <div>
+        <iframe className='w-screen aspect-video' height="538" src={"https://www.youtube.com/embed/"+trailerVideo?.key + "?&autoplay=1&mute=1"} title="Elemental | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  )
+}
+
+export default VideoBackground
