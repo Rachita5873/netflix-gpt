@@ -7,3 +7,11 @@ export const api_options = {
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYjBhZTViYjBmZWY0ZmIxNGM3YmE2ZDJiMmEzOTJhNiIsInN1YiI6IjY1NGI2OGM3NDFhNTYxMzM2Yjc5ZDU1NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.guwUM2cIyk6tltEQQvfDbgv4ICeffMyLMqm9OjyIeIQ'
     }
   };
+
+  export const SUPPORTED_LANGUAGES = [
+    { identifier: "en", name: "English" },
+    { identifier: "hindi", name: "Hindi" },
+    { identifier: "spanish", name: "Spanish" },
+  ];
+  
+  export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500"
