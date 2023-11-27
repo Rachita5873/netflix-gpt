@@ -13,5 +13,7 @@ export const api_options = {
     { identifier: "hindi", name: "Hindi" },
     { identifier: "spanish", name: "Spanish" },
   ];
-  
-  export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500"
+
+  export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+  export const OPENAI_KEY = "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";
