@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Rachita5873/netflix-gpt/static/css/main.d16bc1b3.css",
+    "main.js": "/Rachita5873/netflix-gpt/static/js/main.6e27c414.js",
+    "static/js/787.8e67c6e9.chunk.js": "/Rachita5873/netflix-gpt/static/js/787.8e67c6e9.chunk.js",
+    "index.html": "/Rachita5873/netflix-gpt/index.html",
+    "main.d16bc1b3.css.map": "/Rachita5873/netflix-gpt/static/css/main.d16bc1b3.css.map",
+    "main.6e27c414.js.map": "/Rachita5873/netflix-gpt/static/js/main.6e27c414.js.map",
+    "787.8e67c6e9.chunk.js.map": "/Rachita5873/netflix-gpt/static/js/787.8e67c6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d16bc1b3.css",
+    "static/js/main.6e27c414.js"
+  ]
+}
